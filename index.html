@@ -4,11 +4,12 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Mastering Monero - Chapter 6</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+		<link rel="stylesheet" href="css/theme/monero.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -25,8 +26,89 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-background-iframe="https://player.vimeo.com/video/366768824?background=1"
+						 data-background-color="#000">
+					<h1>Mastering Monero</h1>
+					<h2>Chapter 6 - Community and contributing</h2>
+				</section>
+				<section>
+					<h2>Community Culture</h2>
+					<h3>Principles of Openness</h3>
+					<ul>
+						<li class="fragment fade-left">Transparency</li>
+						<li class="fragment fade-left">Collaboration</li>
+						<li class="fragment fade-left">Basically, the opposite of ByteCoin</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Community Culture</h2>
+					<h3>Many great minds work on Monero</h3>
+					<ul>
+						<li class="fragment fade-left">Monero Core Team</li>
+						<li class="fragment fade-left">Monero Research Lab</li>
+						<li class="fragment fade-left">Monero Workgroups</li>
+						<li class="fragment fade-left">The Community</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Code Culture</h2>
+					<h3>Create a pull request for the improvements</h3>
+					<ul>
+						<li class="fragment fade-left">Fork the repository on GitHub</li>
+						<li class="fragment fade-left">Clone the repository to your machine</li>
+						<li class="fragment fade-left">Make a branch, implement necessary changes</li>
+						<li class="fragment fade-left">Commit the files with a clear descriptive message</li>
+						<li class="fragment fade-left">Execute git push origin branch-name to sync the local changes to
+							your forked repository
+						</li>
+						<li class="fragment fade-left">Create a pull request (including clear descriptions and
+							documentation) to submit your changes back to the original (base) repository
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Code Culture</h2>
+					<h3>Patch Etiquette & General Guidelines</h3>
+					<ul>
+						<li class="fragment fade-left">Preferably use a pull request</li>
+						<li class="fragment fade-left">Otherwise, git format-patch</li>
+						<li class="fragment fade-left">Patches should be self-contained</li>
+						<li class="fragment fade-left">One patch per separate issue</li>
+						<li class="fragment fade-left">Follow the code style of the original thing</li>
+						<li class="fragment fade-left">Don't change other stuff like whitespace</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Code Culture</h2>
+					<h3>Repository for Monero</h3>
+					<ul>
+						<li class="fragment fade-left">Monero: the core of Monero network which includes the Monero
+							Wallet CLI, written in C++ language
+						</li>
+						<li class="fragment fade-left">Monero-site: source code for the https://getmonero.org website
+						</li>
+						<li class="fragment fade-left">Monero-GUI: Graphical User Interface for Monero, built with Qt
+							library
+						</li>
+						<li class="fragment fade-left">kastelo: the community hardware wallet</li>
+						<li class="fragment fade-left"><span
+								class="fragment strike">kovri: The Kovri anonymizing router</span></li>
+					</ul>
+				</section>
+				<section>
+					<h2>Code Culture</h2>
+					<h3>Repository for Monero</h3>
+					<p><em>Note: At the time of writing, some components of the Monero ecosystem are shifting their
+						repositories from GitHub to GitLab.</em></p>
+				</section>
+				<section data-background-iframe="https://player.vimeo.com/video/366768824?background=1"
+						 data-background-color="#000">
+					<h2>Source</h2>
+					<p>
+						<a href="https://github.com/monerobook/monerobook/blob/master/chapters/6.md"
+						   target="_blank">Mastering Monero - Chapter 6 (GitHub)</a>
+					</p>
+				</section>
 			</div>
 		</div>
 
